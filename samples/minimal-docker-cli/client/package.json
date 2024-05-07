@@ -11,7 +11,7 @@
     "@types/react-dom": "^17.0.0",
     "@docker/docker-mui-theme": "<0.1.0",
     "@docker/extension-api-client": "^0.3.0",
-    "@emotion/react": "^11.7.1",
+    "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.6.0",
     "@mui/icons-material": "^5.4.1",
     "@mui/material": "^5.4.1",
