@@ -10,7 +10,7 @@ RUN --mount=type=cache,target=/go/pkg/mod \
     --mount=type=cache,target=/root/.cache/go-build \
     go build -trimpath -ldflags="-s -w" -o bin/service
 
-FROM alpine
+FROM alpine:3.20.3
 
 LABEL org.opencontainers.image.title="VM service" \
     org.opencontainers.image.description="A sample extension that uses a VM service to list all the Docker volumes." \
