@@ -10,7 +10,7 @@ RUN --mount=type=cache,target=/usr/src/app/.npm \
 COPY ui /ui
 RUN npm run build
 
-FROM alpine
+FROM alpine:3.20.3
 LABEL org.opencontainers.image.title="Oauth sample" \
     org.opencontainers.image.description="Sample extension logging in with github OAuth service" \
     org.opencontainers.image.vendor="Awesome Inc." \
